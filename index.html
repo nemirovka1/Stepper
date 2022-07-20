@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Stepper</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Sliding Stepper</h1>
+    <button class="stepper" type="button" value="0">
+        <span class="stepper__value" data-pos="off-left" aria-hidden="true">-2</span>
+        <span class="stepper__value" data-pos="prev" aria-hidden="true">-1</span>
+        <span class="stepper__value" data-pos="cur">0</span>
+        <span class="stepper__value" data-pos="next" aria-hidden="true">1</span>
+        <span class="stepper__value" data-pos="off-right" aria-hidden="true">2</span>
+        <span class="stepper__btn-area">
+            <span class="stepper__btn-click" data-dir="down"></span>
+        </span>
+        <span class="stepper__btn-area">
+            <span class="stepper__btn-click" data-dir="up"></span>
+        </span>
+    </button>
+    <script src="/index.js"></script>
+</body>
+</html>
